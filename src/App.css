@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +34,16 @@
   to {
     transform: rotate(360deg);
   }
+}
+body{
+  background: rgb(156, 116, 70);
+  color: aliceblue;
+}
+.add{
+  background: rgb(245, 162, 7);
+  font-size: 40px;
+  color: rgb(250, 248, 248);
+  cursor: pointer;  
+  border: .5px solid red;
+  border-radius: 10px;
 }
